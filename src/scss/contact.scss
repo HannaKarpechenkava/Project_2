@@ -1,0 +1,103 @@
+.contact {
+  background-color: rgba(53, 60, 101, 1);
+  padding: 4.4375rem 0;
+}
+.contact__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+}
+.contact__item {
+  margin: 0 15px;
+  width: 22.5rem;
+  @media (max-width: 1200px) {
+    width: 18rem;
+  }
+  @media (max-width: 992px) {
+    width: 14rem;
+  }
+  @media (max-width: 767px) {
+    width: 22.5rem;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.contact__item__title {
+  font-size: $_18px;
+  font-weight: 700;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 29px;
+  &__down {
+    font-size: $_18px;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 49px;
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
+.contact__item__text {
+  width: 100%;
+  text-align: center;
+  p {
+    font-size: $_18px;
+    font-weight: 400;
+    color: $white;
+    text-transform: capitalize;
+  }
+}
+.contact__media__list {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    margin-right: 15px;
+    width: 2.4375rem;
+    height: 2.4375rem;
+    border: 2px solid $grey;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      box-shadow: 5px 5px 10px $grey;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.fa-facebook-f__contact {
+  color: $grey;
+  &:hover {
+    color: rgba(63, 63, 204, 1);
+  }
+}
+
+.fa-twitter__contact {
+  color: $grey;
+  &:hover {
+    color: rgba(20, 188, 255, 1);
+  }
+}
+
+.fa-linkedin__contact {
+  color: $grey;
+  &:hover {
+    color: rgba(21, 102, 163, 1);
+  }
+}
