@@ -1,7 +1,7 @@
 .employee {
   background-color: $white;
   padding: 7.125rem 0;
-  display: none;
+
   @media (max-width: 320px) {
     padding: 3rem;
   }

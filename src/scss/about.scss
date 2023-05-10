@@ -5,6 +5,11 @@
 .swiper-slide {
   width: 100%;
   height: 335px;
+  &:nth-child(2n) {
+    .slider__wrap {
+      background-color: $deep_blue;
+    }
+  }
 }
 .slider__wrap {
   display: grid;
