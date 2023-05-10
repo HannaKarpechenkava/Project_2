@@ -1,6 +1,7 @@
 .employee {
   background-color: $white;
   padding: 7.125rem 0;
+  display: none;
   @media (max-width: 320px) {
     padding: 3rem;
   }
@@ -117,6 +118,8 @@
   align-items: center;
   &:hover {
     box-shadow: 5px 5px 10px $grey;
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
   }
 }
 
@@ -124,6 +127,8 @@
   color: $grey;
   &:hover {
     color: rgba(63, 63, 204, 1);
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
   }
 }
 
@@ -131,6 +136,8 @@
   color: $grey;
   &:hover {
     color: rgba(20, 188, 255, 1);
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
   }
 }
 
@@ -138,5 +145,7 @@
   color: $grey;
   &:hover {
     color: rgba(21, 102, 163, 1);
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
   }
 }

@@ -17,6 +17,7 @@
   font-size: $_24px;
   font-weight: 900;
   text-transform: uppercase;
+
   &:hover {
     background-color: $red;
     transition: 0.2s;
@@ -31,7 +32,7 @@
   }
   @media (max-width: 566px) {
     font-weight: 700;
-    width: 17rem;
+    width: 14rem;
     line-height: 3.5rem;
   }
   @media (max-width: 320px) {

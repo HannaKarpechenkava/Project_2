@@ -10,7 +10,7 @@
 @import "../scss/_var";
 @import "../scss/_cdn";
 @import "../scss/_mixins";
-@import "../scss/testimonials";
+@import "../scss/about";
 @import "../scss/advantages";
 @import "../scss/contact";
 @import "../scss/design";
@@ -36,9 +36,12 @@ html {
     max-width: 800px;
   }
   @media (max-width: 767px) {
-    max-width: 685px;
+    max-width: 80%;
   }
   @media (max-width: 566px) {
-    max-width: 100%;
+    max-width: 80%;
+  }
+  @media (max-width: 320px) {
+    max-width: 80%;
   }
 }

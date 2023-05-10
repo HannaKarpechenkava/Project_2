@@ -1,6 +1,7 @@
 .contact {
   background-color: rgba(53, 60, 101, 1);
   padding: 4.4375rem 0;
+  display: none;
 }
 .contact__wrap {
   display: flex;
@@ -66,8 +67,8 @@
 
   &__item {
     margin-right: 15px;
-    width: 2.4375rem;
-    height: 2.4375rem;
+    width: 39px;
+    height: 39px;
     border: 2px solid $grey;
     font-size: 1.3rem;
     display: flex;
@@ -75,6 +76,8 @@
     align-items: center;
     &:hover {
       box-shadow: 5px 5px 10px $grey;
+      transform: scale(1.5, 1.5);
+      transition: 0.2s;
     }
     &:last-child {
       margin-right: 0;
@@ -85,6 +88,8 @@
   color: $grey;
   &:hover {
     color: rgba(63, 63, 204, 1);
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
   }
 }
 
@@ -92,6 +97,8 @@
   color: $grey;
   &:hover {
     color: rgba(20, 188, 255, 1);
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
   }
 }
 
@@ -99,5 +106,7 @@
   color: $grey;
   &:hover {
     color: rgba(21, 102, 163, 1);
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
   }
 }
