@@ -27,10 +27,11 @@
     box-shadow: 5px 5px 30px $coral;
   }
   @media (max-width: 767px) {
-    width: 20rem;
-    line-height: 4rem;
+    width: 19rem;
+    line-height: 3.8rem;
   }
   @media (max-width: 566px) {
+    font-size: 16px;
     font-weight: 700;
     width: 14rem;
     line-height: 3.5rem;
@@ -44,9 +45,12 @@
 }
 
 @mixin social_icon {
-  width: 2.4375rem;
-  height: 2.4375rem;
-  border: 1px solid $grey;
+  text-align: center;
+  padding: 6px 0;
+  color: $grey;
+  width: 2.43rem;
+  height: 2.43rem;
+  border: 2px solid $grey;
 }
 @mixin icon {
   width: 6.25rem;
